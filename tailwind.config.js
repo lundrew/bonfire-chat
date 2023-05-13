@@ -7,11 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        hero: "url('../src/assets/images/bg-landing-page.jpeg')",
-        login: "url('../src/assets/images/bg-login-page.jpeg')",
-        dashboard: "url('../src/assets/images/bg-dashboard.jpeg')",
-      },
+      // backgroundImage: {
+      //   hero: "url('../public/images/bg-landing-page.jpeg')",
+      //   login: "url('../src/assets/images/bg-login-page.jpeg')",
+      //   dashboard: "url('../src/assets/images/bg-dashboard.jpeg')",
+      // },
       screens: {
         xs: "200px",
         tablet: "640px",
