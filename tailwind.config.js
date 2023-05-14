@@ -24,9 +24,10 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
       fontFamily: {
-        space: ['"Space Grotesk"'],
-        lobster: ['"Lobster Two"'],
-        lato: ['"Lato"'],
+        space: ["var(--font-space)"],
+        lobster: ["var(--font-lobster)"],
+        lato: ["var(--font-lato)"],
+        inter: ["var(--font-inter)"],
       },
       colors: {
         activeColor1: "hsl(249, 99%, 64%)",
