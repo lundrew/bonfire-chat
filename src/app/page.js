@@ -1,3 +1,4 @@
+import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,9 +11,8 @@ export default function Home() {
           class="-z-50 w-full h-full top-0 left-0 object-cover rounded-2xl "
         />
         <div>
-          {/* <Header />
-          <HeroSection /> */}
-          Landing Page
+          {/* <Header /> */}
+          <HeroSection />
         </div>
       </div>
     </div>
