@@ -50,7 +50,7 @@ function SignUp() {
           path: "/",
         });
         if (data.status.code === 200) {
-          navigate("/");
+          router.push("/");
         }
       })
       .catch((error) => console.error(error));
