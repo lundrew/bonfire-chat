@@ -7,7 +7,7 @@ function LogoutButton() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("http://127.0.0.1:4000/logout", {
+    fetch("https://bonfireapi-production.up.railway.app/logout", {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${userToken}`,

@@ -30,7 +30,7 @@ function SignUp() {
     };
     const requestBodyLength = JSON.stringify(requestBody).length;
 
-    fetch("http://127.0.0.1:4000/sign_up", {
+    fetch("https://bonfireapi-production.up.railway.app/sign_up", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
