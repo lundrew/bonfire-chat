@@ -11,7 +11,6 @@ import LogoutButton from "@/components/LogoutButton";
 function HeroSection() {
   const user = GetCurrentUser();
   const { t } = useTranslation();
-  console.log(user);
 
   return (
     <Trans i18nKey="description1">
