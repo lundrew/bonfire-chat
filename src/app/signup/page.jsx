@@ -30,7 +30,7 @@ function SignUp() {
     };
     const requestBodyLength = JSON.stringify(requestBody).length;
 
-    fetch("https://bonfireapi-production.up.railway.app/sign_up", {
+    fetch("https://bonfire-api-production.up.railway.app/sign_up", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

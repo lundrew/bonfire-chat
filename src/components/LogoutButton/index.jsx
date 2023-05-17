@@ -7,7 +7,7 @@ function LogoutButton() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    fetch("https://bonfireapi-production.up.railway.app/logout", {
+    fetch("https://bonfire-api-production.up.railway.app/logout", {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${userToken}`,
